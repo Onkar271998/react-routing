@@ -9,7 +9,6 @@ function Navbar() {
         justifyContent: "space-between",
         backgroundColor: "black",
         padding: "25px",
-        
       }}
     >
       <div
@@ -18,10 +17,9 @@ function Navbar() {
           gap: "20px",
         }}
       >
-        <Link to="Home" style={{ color: "white", textDecoration: "none" }}>
+        <Link to="/" style={{ color: "white", textDecoration: "none" }}>
           Home
         </Link>
-      
       
         <Link to="products" style={{ color: "white", textDecoration: "none" }}>
           Products

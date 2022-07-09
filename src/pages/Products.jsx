@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 export const ProductList = () => {
     const [data, setData] = useState(null);
+
     useEffect(() => {
         axios({
             url: "http://localhost:8080/data",
